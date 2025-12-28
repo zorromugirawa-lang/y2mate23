@@ -1,5 +1,7 @@
 # Premium MP3 Downloader
 
+![Tampilan Aplikasi](preview.png)
+
 Aplikasi web sederhana namun elegan untuk mengonversi video YouTube menjadi file MP3 berkualitas tinggi. Dibuat dengan Node.js dan antarmuka "Glassmorphism" yang modern.
 
 ## Fitur

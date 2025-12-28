@@ -72,3 +72,4 @@ FFmpeg Error: Error: Input stream error: Status code: 403
     statusCode: 403
   }
 }
+^C
