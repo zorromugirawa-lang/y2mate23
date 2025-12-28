@@ -1,0 +1,74 @@
+[DATE: 28/12/2025 10.18.17,30] 
+[CHECKING NODE] 
+v24.12.0
+[INSTALLING_DEPS] 
+npm warn deprecated fluent-ffmpeg@2.1.3: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+
+added 87 packages, and audited 88 packages in 9s
+
+17 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice
+npm notice New minor version of npm available! 11.6.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+[STARTING_SERVER] 
+Server is running on http://localhost:3000
+[33mWARNING:[0m Could not parse decipher function.
+Stream URLs will be missing.
+Please report this issue by uploading the "1766891966494-player-script.js" file on https://github.com/distubejs/ytdl-core/issues/144.
+[33mWARNING:[0m Could not parse n transform function.
+Please report this issue by uploading the "1766891967639-player-script.js" file on https://github.com/distubejs/ytdl-core/issues/144.
+FFmpeg Error: Error: Input stream error: Status code: 403
+    at PassThrough.<anonymous> (C:\Users\KIYUBI 3\Documents\kiyubi 1\CODING\MP3\node_modules\fluent-ffmpeg\lib\processor.js:451:34)
+    at PassThrough.emit (node:events:520:35)
+    at PassThrough.emit (node:events:508:28)
+    at ClientRequest.<anonymous> (C:\Users\KIYUBI 3\Documents\kiyubi 1\CODING\MP3\node_modules\miniget\dist\index.js:211:28)
+    at Object.onceWrapper (node:events:623:26)
+    at ClientRequest.emit (node:events:508:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:780:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:123:17)
+    at TLSSocket.socketOnData (node:_http_client:615:22)
+    at TLSSocket.emit (node:events:508:28) {
+  inputStreamError: MinigetError: Status code: 403
+      at ClientRequest.<anonymous> (C:\Users\KIYUBI 3\Documents\kiyubi 1\CODING\MP3\node_modules\miniget\dist\index.js:206:27)
+      at Object.onceWrapper (node:events:623:26)
+      at ClientRequest.emit (node:events:508:28)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:780:27)
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:123:17)
+      at TLSSocket.socketOnData (node:_http_client:615:22)
+      at TLSSocket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5) {
+    statusCode: 403
+  }
+}
+FFmpeg Error: Error: Input stream error: Status code: 403
+    at PassThrough.<anonymous> (C:\Users\KIYUBI 3\Documents\kiyubi 1\CODING\MP3\node_modules\fluent-ffmpeg\lib\processor.js:451:34)
+    at PassThrough.emit (node:events:520:35)
+    at PassThrough.emit (node:events:508:28)
+    at ClientRequest.<anonymous> (C:\Users\KIYUBI 3\Documents\kiyubi 1\CODING\MP3\node_modules\miniget\dist\index.js:211:28)
+    at Object.onceWrapper (node:events:623:26)
+    at ClientRequest.emit (node:events:508:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:780:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:123:17)
+    at TLSSocket.socketOnData (node:_http_client:615:22)
+    at TLSSocket.emit (node:events:508:28) {
+  inputStreamError: MinigetError: Status code: 403
+      at ClientRequest.<anonymous> (C:\Users\KIYUBI 3\Documents\kiyubi 1\CODING\MP3\node_modules\miniget\dist\index.js:206:27)
+      at Object.onceWrapper (node:events:623:26)
+      at ClientRequest.emit (node:events:508:28)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:780:27)
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:123:17)
+      at TLSSocket.socketOnData (node:_http_client:615:22)
+      at TLSSocket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5) {
+    statusCode: 403
+  }
+}

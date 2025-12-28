@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium MP3 Downloader</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Placeholder for icons -->
+</head>
+
+<body>
+    <div class="background-mesh"></div>
+
+    <main class="container">
+        <div class="card">
+            <header>
+                <h1><span class="gradient-text">MP3</span> Converter</h1>
+                <p>Ubah video YouTube menjadi audio berkualitas tinggi secara instan.</p>
+            </header>
+
+            <div class="input-group">
+                <input type="text" id="urlInput" placeholder="Tempel URL YouTube di sini..." autocomplete="off">
+                <button id="convertBtn">
+                    Unduh MP3 <span class="loader hidden"></span>
+                </button>
+            </div>
+
+            <div id="statusMessage" class="status"></div>
+
+            <div class="features">
+                <div class="feature-item">
+                    <i class="fas fa-bolt"></i>
+                    <span>Cepat</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Kualitas Tinggi</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Aman</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
